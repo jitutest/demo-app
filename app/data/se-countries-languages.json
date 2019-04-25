@@ -1,0 +1,22 @@
+[
+  {
+    "region": "America",
+    "Countries": [
+      {
+        "name": "USA - English",
+        "value": "en_INT",
+		    "default": false
+      }
+    ]
+  },
+  {
+      "region": "Europe",
+      "Countries": [
+          {
+              "name": "France - français",
+              "value": "fr_FR",
+			        "default": true
+          }
+      ]
+  }
+]

@@ -1,0 +1,12 @@
+<div ng-controller="tncDemoCtrl as vm" class="container http-batcher-container">
+    <div ng-if="vm.isPopUpClicked">
+      <se-tnc-ui error-callback="vm.errorCallbackForPopup" is-pop-up=true country="vm.country" language="vm.language" static-text-obj="vm.staticTextObj" accept-callback="vm.acceptCallback(version, data)" reject-callback="vm.rejectCallback()" error-msg="vm.errorMsg" data-toggle="modal" data-target="#myModal1"></se-tnc-ui>
+    </div>
+  <div ng-if="vm.isNormal">
+      <se-tnc-ui   error-callback="vm.errorCallback" is-pop-up=false country="vm.country"></se-tnc-ui>
+      <se-tnc-ui-button is-tnc-content="vm.isTncReady" is-pop-up=false is-button=true country="vm.country" language="vm.language" static-text-obj="vm.staticTextObj" accept-callback="vm.acceptCallback(version, data)" reject-callback="vm.rejectCallback()" error-msg="vm.errorMsg"></se-tnc-ui-button>
+  </div>
+  <div ng-if="vm.isError">
+    <div style="color:red;">{{vm.errorMsg}}</div>
+  </div>
+</div>

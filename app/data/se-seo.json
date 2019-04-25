@@ -1,0 +1,16 @@
+{
+  "homepage": {
+    "title": "Web UI - Landing Page",
+    "keywords": "schneider,electric,energy,management, ECT News",
+    "robots": "INDEX, FOLLOW",
+    "description": "Homepage As a global special list in energy management with operations in more than 100 countries, we offer integrated energy solutions across multiple market segments",
+    "applicationname": "SDK Component"
+  },
+  "innerpage": {
+    "title": "Web UI - SDK Components",
+    "keywords": "schneider,electric,energy,management Cloud and Service Providers, Mining, Metals & Minerals",
+    "robots": "INDEX, FOLLOW",
+    "description": "Innerpage As a global special list in energy management with operations in more than 100 countries, we offer integrated energy solutions across multiple market segments",
+    "applicationname": "SDK Component"
+  }
+}

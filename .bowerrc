@@ -1,0 +1,9 @@
+
+  {
+    "directory": "bower_components",
+    "registry" : "http://artifactory-dces.schneider-electric.com/artifactory/api/bower/bower",
+    "resolvers" : [
+      "bower-art-resolver"
+    ]
+  }  
+  

@@ -1,0 +1,108 @@
+<!doctype html>
+<html class="no-js" ng-app="se-branding">
+  <head>
+    <meta charset="utf-8">
+    <title ng-bind="metatags.title"></title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="{{ metatags.description }}" >
+    <meta name="keywords" content="{{ metatags.keywords }}" >
+    <meta name="application-name" content="{{ metatags.applicationname }}" />
+    <meta name="robots" content="{{ metatags.robots }}" >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css" />
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="bower_components/ng-scrollbar/dist/ng-scrollbar.css" />
+    <link rel="stylesheet" href="bower_components/webui/dist/web-ui-component.css" />
+    <link rel="stylesheet" href="bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css" />
+    <link rel="stylesheet" href="bower_components/sdk-t-c-ui/sdk-t-c-ui-all.css" />
+    <!-- endbower -->
+    <!-- endbuild -->/
+    <!-- build:css(.tmp) styles/main.css -->
+
+    <link rel="stylesheet" href="styles/app.css"/>
+
+    <!-- endbuild -->
+  </head>
+  <body>
+  <div role="document" ng-controller="landingPage">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div id="wrap">
+      <!-- header starts -->
+      <se-header menus="MainMenuItemsnew"
+				locales="locales"
+				auto-complete-data="autoCompleteData"
+				search-categories='searchCaseList'
+        header-logo="headerLogo"></se-header>
+      <!-- header ends -->
+      <!--div class="push"></div-->
+
+      <div ng-view></div>
+    </div>
+
+
+    <!-- footer starts -->
+        <se-footer footersociallinks="footerSocialLinks"
+					footerlinks="footerLinks" mainfooterlinks="mainfooterlinks" ng-show="!altFooterShow" stick-bottom></se-footer>
+    <!-- footer ends -->
+
+    <!-- alternate footer starts -->
+    <se-footer-alt config="footerconfig" footersociallinks="footerSocialLinks" mainfooterlinks="mainfooterlinks" ng-show="altFooterShow" stick-bottom>
+    </se-footer-alt>
+    <!-- alternate footer ends -->
+
+  </div>
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-messages/angular-messages.js"></script>
+    <script src="bower_components/angular-material/angular-material.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/angular-gettext/dist/angular-gettext.js"></script>
+    <script src="bower_components/ng-scrollbar/dist/ng-scrollbar.js"></script>
+    <script src="bower_components/webui/dist/web-ui-component-all.js"></script>
+    <script src="bower_components/angular-mocks/angular-mocks.js"></script>
+    <script src="bower_components/jquery-mousewheel/jquery.mousewheel.js"></script>
+    <script src="bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js"></script>
+    <script src="bower_components/ng-scrollbars/dist/scrollbars.min.js"></script>
+    <script src="bower_components/angular-utf8-base64/angular-utf8-base64.js"></script>
+    <script src="bower_components/angular-spinner/dist/angular-spinner.min.js"></script>
+  
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!--<script type="application/javascript">
+      PDFJS.workerSrc = 'bower_components/pdfjs-dist/build/pdf.worker.js';
+  </script>-->
+  <script src="common/config.js"></script>
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+
+  
+    <script src="scripts/app.js"></script>
+	  <script src="scripts/se-branding.js"></script>
+    
+    <script src="locales/translations.js"></script>
+    <script src="scripts/se-httpbatcher-demo.js"></script>
+    <script src="scripts/demoConfigCtrl.js"></script>
+    <script src="scripts/configureService.js"></script>
+
+
+    <!-- endbuild -->
+    
+</body>
+</html>

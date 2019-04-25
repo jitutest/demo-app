@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Home",
+        "initialVisibility": "false",
+        "link" : "#/homepage",
+        "permissions" : ["ADMIN", "GUEST"]
+
+    },
+    {
+        "title": "Configuration Demo",
+        "initialVisibility": "false",
+        "link" : "#/config",
+        "permissions" : ["ADMIN","GUEST"]
+
+    }
+]

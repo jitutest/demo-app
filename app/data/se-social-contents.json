@@ -1,0 +1,29 @@
+[
+	{
+		"title": "Google",
+		"url": "images/gg.png",
+		"link": "http://www.google.com",
+		"alttext" : "Google"
+	},
+	{
+		"title": "LinkedIn",
+		"url": "images/in.png",
+		"link": "#",
+		"alttext" : "LinkedIn"
+	},
+	{
+		"title": "Twitter",
+		"url": "images/tw.png",
+		"alttext" : "Twitter"
+	},
+	{
+		"title": "YouTube",
+		"url": "images/utube.png",
+		"link": "#",
+		"alttext" : "YouTube"
+	}	
+]
+
+
+
+

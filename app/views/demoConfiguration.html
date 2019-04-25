@@ -1,0 +1,60 @@
+<div class="container http-batcher-container" ng-init="initFunc();">
+    <form name="batchForm">
+        <div class="form-group se-form-group"> 
+        <label for="baseUrl">Base URL</label>
+        <input type="text" class="form-control se-form-control" id="baseUrl"  placeholder="URL" ng-model="baseUrl">
+        </div>
+        
+        <div class="form-group se-form-group">
+            <label for="country">Country</label>
+            <input type="text" class="form-control se-form-control" id="country" name="country" ng-model="country">
+            <!--<se-dropdowns class="se-light-green" divider="yes" items="vm.methods" label="Select" ng-model="vm.form.method" visible-options="3">
+            </se-dropdowns>-->
+        </div>
+
+        <div class="form-group se-form-group">
+            <label for="app_version">App Version</label>
+            <input type="text" class="form-control se-form-control" id="app_version" name="app_version" placeholder="app_version" ng-model="app_version">
+        </div>
+
+        <div class="form-group se-form-group">
+            <label for="client_id">Client Id</label>
+            <input type="text" class="form-control se-form-control" id="clientId" name="clientId" placeholder="clientId" ng-model="clientId">
+        </div>
+
+        <div class="form-group se-form-group">
+            <label for="staticTextObj">Static Text Object</label>
+            <!--<input type="text" class="form-control se-form-control" id="data" name="data" placeholder="Data" ng-model="vm.form.data">-->
+            <textarea class="form-control se-form-control" id="staticTextObj" name="staticTextObj" placeholder="Data" ng-model="staticTextObj" rows="5"></textarea>
+        </div>
+        <br/>
+        <p>Your Images url could be : ./images/bgLanding.png , ./images/common-sprite.png, ./images/comon-sprite@2x.png, ./images/footer-logo.png, ./images/gg.png, ./images/in.png </p>
+        <br/>
+
+        <div class="form-group se-form-group">
+                <label for="Model Window">Model Window</label>
+                <se-dropdowns class="se-light-green" divider="yes" items="windowModal" label="Select" ng-model="model_choose" visible-options="3">
+                </se-dropdowns>
+        </div>
+        <br/>
+        <input type="button"  class="se-btn se-btn-light-green se-btn-normal" value="Configure"  ng-click="configure()">
+        
+
+    </form>
+</div>
+<div class="modal fade" id="errorModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Warning Popup</h4>
+            </div>
+            <div class="modal-body">
+            {{errorMsg}}
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>

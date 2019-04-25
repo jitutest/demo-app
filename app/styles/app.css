@@ -1,0 +1,60 @@
+.caroussel-object img {
+  float: left;
+  padding-right: 10px;
+}
+.caroussel-object .mainInfo {
+  font-size: 14px;
+  font-family: ArialRounded;
+  color: #3DCD58;
+}
+.caroussel-object h1 {
+  font-size: 24px;
+  font-family: ArialRounded;
+  color: #4a4a4a;
+}
+.caroussel-object p {
+  font-size: 12px;
+  font-family: ArialRounded;
+  color: #9b9b9b;
+}
+.se-link-blue {
+  color: #42b4e6;
+}
+.http-batcher-container {
+  margin: 0px auto 120px auto;
+  height: auto;
+  padding: 10px 10px;
+}
+.clearfix {
+  padding: 10px;
+}
+.row-data {
+  margin-right: 20px;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+table th {
+  overflow: hidden;
+  width: 20%;
+}
+table td {
+  overflow: hidden;
+  width: 20%;
+}
+#apiList table tr th:nth-child(2) {
+  width: 60%;
+}
+#request-data table tr th:nth-child(1) {
+  width: 7%;
+}
+#request-data table tr th:nth-child(3) {
+  width: 60%;
+}
+#response-data table tr th:nth-child(1) {
+  width: 2%;
+}
+#response-data table tr th:nth-child(2) {
+  width: 8%;
+}

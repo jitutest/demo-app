@@ -1,0 +1,16 @@
+[
+  {
+    "logo" : true,
+    "localization" : true,
+    "authentication" : true,
+    "mainmenu": true,
+    "search": true,
+    "breadcrumb":false,
+    "headerlogoLink":"#/homepage",
+    "footerLogoLink":"#/homepage",
+    "selectcountry": true,
+    "sitelinks":true,
+    "sociallinks":true
+
+  }
+]

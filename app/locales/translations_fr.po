@@ -1,0 +1,103 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-03-20 16:31+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"X-Generator: Poedit 1.6.9\n"
+
+#: se-footer.html:8
+msgid "OUR SITE"
+msgstr "NOTRE SITE"
+
+#: se-footer.html:8
+msgid "SUPPORT"
+msgstr "SUPPORT"
+
+#: se-footer.html:20
+msgid "PARTNER"
+msgstr "PARTENAIRE"
+
+#: se-footer.html:11
+msgid "http://www.schneider-electric.com"
+msgstr "http://www.schneider-electric.com/fr/fr/"
+
+#: se-footer.html:17
+msgid "http://www.schneider-electric.com/support"
+msgstr "http://www.schneider-electric.com/aider"
+
+#: se-footer.html:23
+msgid "http://partners.schneider-electric.us/en/"
+msgstr "http://partners.schneider-electric.us/fr/"
+
+#: se-tiles.html:9
+msgid "LandingPageHeading"
+msgstr "Outils de calcul en ligne électriques"
+
+#: se-tiles.html:21
+msgid "Create a New Project"
+msgstr "Créer un nouveau projet"
+
+#: se-tiles.html:22
+msgid "Project Paragraph"
+msgstr "Ceci est un lorem ipsum dolor de sit amet, consectetur adipiscing elit . eget ipsum . Pellentesque fringilla onci"
+
+#: se-tiles.html:21
+msgid "FAQs"
+msgstr "FAQs"
+
+#: se-tiles.html:23
+msgid "Create Project"
+msgstr "Créer un projet"
+
+#: se-tiles.html:23
+msgid "Register"
+msgstr "Inscription"
+
+#: se-tiles.html:23
+msgid "Add Lorem"
+msgstr "Ajouter lorem"
+
+#: se-tiles.html:28
+msgid "What is your business?"
+msgstr "Quel est votre entreprise ?"
+
+#: se-tiles.html:38
+msgid "ECT ONLINE News Feeds"
+msgstr "ECT LIGNE Fils d'actualités"
+
+#: se-header-login.html
+msgid "Logout"
+msgstr "Déconnexion"
+
+#: se-header-login.html
+msgid "Login"
+msgstr "Connexion"
+
+#: se-header-login.html
+msgid "Home"
+msgstr "Accueil"
+
+#: se-header-login.html
+msgid "SDK UI "
+msgstr "SDK UI"
+
+
+#: se-footer.html:5
+msgid "Legal"
+msgstr "Mentions légales"
+
+msgid "Privacy Policy"
+msgstr "Confidentialité"
+
+msgid "Copyright"
+msgstr "Copyright"
+
+msgid "Baselinetext"
+msgstr "texte de référence"
+
